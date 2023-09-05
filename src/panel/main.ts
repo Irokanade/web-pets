@@ -214,7 +214,7 @@ window.addEventListener('resize', function () {
     initCanvas();
 });
 
-// document.body.appendChild(component());
+document.body.appendChild(component());
 document.body.appendChild(petsContainerComponent());
 initCanvas();
 var newPet = addPetToPanel(PetType.totoro, basePetUri, PetColor.gray, PetSize.small, randomStartPosition(), 0, 0, PetType.totoro);

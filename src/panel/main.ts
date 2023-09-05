@@ -21,7 +21,7 @@ var Icon = './pawprint.png';
 var basePetUri = "media";
 
 export var allPets: IPetCollection = new PetCollection();
-// var petCounter: number;
+var petCounter: number;
 
 function calculateFloor(size: PetSize, theme: Theme): number {
     switch (theme) {
